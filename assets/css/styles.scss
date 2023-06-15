@@ -441,3 +441,65 @@ footer {
   font-weight: 200;
 }
 
+/* MEDIA QUERIES */
+@media (max-width: 740px) {
+
+  #projects{
+    padding: 0;
+  }
+
+  .project {
+    display: block;
+  }
+
+  .project-filter {
+    background-color: #f9f9f9;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+  }
+
+  .project-filter-active {
+    background-color: #ffffff;
+    border: 1px solid rgb(219, 219, 219);
+  }
+
+  .projectCard {
+    margin-top: 2em;
+  }
+
+  .competences {
+    padding: 0;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .project {
+    display: block;
+  }
+
+  #projects{
+    padding: 0;
+  }
+
+  .project-heading h3 {
+    font-size: 1.8rem;
+  }
+
+  .competences {
+    padding: 0;
+  }
+
+  #competences {
+    font-size: 18px;
+    padding: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .projectCard {
+    margin: 0;
+    margin-top: 5em;
+    margin-bottom: 60px;
+  }
+
+}
