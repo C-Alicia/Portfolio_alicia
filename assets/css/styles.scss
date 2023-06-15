@@ -444,6 +444,11 @@ footer {
 /* MEDIA QUERIES */
 @media (max-width: 740px) {
 
+  .btn-secondary {
+    width: 100%;
+  }
+
+
   #projects{
     padding: 0;
   }
@@ -475,6 +480,10 @@ footer {
 
   .project {
     display: block;
+  }
+
+  .btn-secondary {
+    width: 100%;
   }
 
   #projects{
