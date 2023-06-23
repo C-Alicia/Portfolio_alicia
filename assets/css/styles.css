@@ -337,6 +337,10 @@ header {
   transform: perspective(600px) rotateY(360deg);
 }
 
+.tag {
+  flex-wrap: wrap;
+}
+
 /* Fleche en bas */
 .arrow_btn {
   height: 80px;
